@@ -13,15 +13,10 @@ description  'STATUS'
 shared_scripts {
 	'@ox_lib/init.lua',
 	'config/config.general.lua',
-    'shared/function.lua'
 }
 
 client_scripts {
 	'client/client.lua',
-}
-
-server_scripts {
-    'server/server.lua'
 }
 
 export 'OnAction'
